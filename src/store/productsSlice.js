@@ -9,12 +9,12 @@ import headphones6 from '../material/headphones6.jpg';
 const productsSlice = createSlice({
     name:'products',
     initialState:{products: [
-        {id: 1, name:"Sony WH-CH720N", url:headphones1, price:"$399"},
-        {id: 2, name:"Sony WH-CH520", url:headphones2, price:"$349"},
-        {id: 3, name:"Sony WH-1000XM4", url:headphones3, price:"$349"},
-        {id: 4, name:"Sony MDR-ZX110AP", url:headphones4, price:"$349"},
-        {id: 5, name:"Sony WH-H900N", url:headphones5, price:"$349"},
-        {id: 6, name:"Sony UTL WEAR", url:headphones6, price:"$349"},
+        {id: 1, name:"Sony WH-CH720N", url:headphones1, price:399},
+        {id: 2, name:"Sony WH-CH520", url:headphones2, price:349},
+        {id: 3, name:"Sony WH-1000XM4", url:headphones3, price:349},
+        {id: 4, name:"Sony MDR-ZX110AP", url:headphones4, price:349},
+        {id: 5, name:"Sony WH-H900N", url:headphones5, price:349},
+        {id: 6, name:"Sony UTL WEAR", url:headphones6, price:349},
     ]},
     reducers:{
 

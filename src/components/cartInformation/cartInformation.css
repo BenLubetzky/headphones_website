@@ -1,0 +1,31 @@
+.cartInformationContainer{
+    width:90%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    margin: 0 auto;
+    align-items: center;
+}
+.cartInformationContainer h2{
+    font-size: 1.2rem;
+}
+
+.cartButtons button{
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    transition: .5s;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.cartButtons button:hover{
+    color:red;
+    cursor: pointer;
+}
+.cartButtons{
+    width:15%;
+    text-align: right;
+    
+}

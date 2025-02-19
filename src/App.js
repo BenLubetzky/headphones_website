@@ -1,4 +1,4 @@
-import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider, Navigate } from 'react-router-dom';
 import './App.css';
 import Homepage from './components/homepage/homepage';
 import Login from './components/login/Login';
@@ -8,6 +8,7 @@ import { Provider } from 'react-redux';
 import store from './store/store';
 const appRouter = createBrowserRouter(createRoutesFromElements(
   <>
+    <Route path="/" element={<Navigate to="/login" replace/>} />
     <Route path="/" element={<Breadcrumbs/>}>
       <Route path="homepage" element={<Homepage/>}/>
       <Route path="cart" element={<Cart/>}/>

@@ -3,5 +3,36 @@
     height:93vh;
     position: relative;
     top:7vh;
-    background-color: red;
+    position: relative;
+}
+
+.cartInformation{
+    width:53%;
+    position:absolute;
+    height:70%;
+    top: 15%;
+    right:5%;
+}
+
+.cartInformation h2{
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.cartPay{
+    position: absolute;
+    background-color: blue;
+    width:20%;
+    height:70%;
+    top: 15%;
+    left: 7%;
+}
+
+.cartItems{
+    border: 1px solid black;
+    border-radius: 10px;
+    width:80%;
+    margin: 0 auto;
+    height: auto;
+    padding:0;
 }
