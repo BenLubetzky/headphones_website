@@ -1,0 +1,21 @@
+.searchBarContainer{
+    height: 30%;
+    width: 100%;
+}
+
+.searchBarForm{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchBarForm input{
+    width:33%;
+    height:30%;
+    border: 1px solid gray;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,40 @@
+.topContainer{
+    background-color: black;
+    width:100%;
+    height:7vh;
+    color:white;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding:0 30px;
+    box-sizing: border-box;
+    align-items: center;
+    z-index: 1;
+}
+
+.topContainer h2{
+    margin:0;
+    transition: 1s;
+}
+
+.topContainer h2:hover{
+    color:red;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+}
+
+.navLink{
+    color:white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    transition: 1s;
+}
+
+.navLink:hover{
+    color:red;
+}
