@@ -2,15 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const cartSlice = createSlice({
     name:'cart',
-    initialState:{cart: [
-        {id: 1, name:"Sony WH-CH720N", price:399, quantity: 1, totalPrice: 350},
-        {id: 2, name:"Sony ULT RUNNER", price:145, quantity: 2, totalPrice: 290},
-        {id: 3, name:"Sony CHINA TOWN", price:189, quantity: 5, totalPrice: 378},
-
-        {id: 3, name:"Sony CHINA TOWN", price:189, quantity: 5, totalPrice: 378},
-
-        {id: 3, name:"Sony CHINA TOWN", price:189, quantity: 5, totalPrice: 378},
-    ]},
+    initialState:{cart: []},
     reducers:{
         addToCart(state,action){
             const addId = action.payload.id;

@@ -16,23 +16,48 @@
 
 .cartInformation h2{
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.8rem; 
 }
 
 .cartPay{
     position: absolute;
-    background-color: blue;
     width:20%;
     height:70%;
     top: 15%;
     left: 7%;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.cartPay h2{
+    text-align: center;
 }
 
 .cartItems{
-    border: 1px solid black;
     border-radius: 10px;
     width:80%;
     margin: 0 auto;
     height: auto;
     padding:0;
+}
+
+.btnPay{
+    display: flex;
+    justify-content: center;
+}
+
+.btnPay button{
+    margin-top: 200px;
+    background-color: #fff;
+    font-size: 2rem;
+    border: 1px solid gray;
+    border-radius: 15px;
+    width: 70%;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+.btnPay button:hover{
+    cursor: pointer;
+    color:red;
 }

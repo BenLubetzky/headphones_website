@@ -8,11 +8,13 @@ function Products() {
   const products = useSelector(store=>store.products.products);
 
   return (
+    <>
     <div className='productsContainer'>
       {products.map(p=>(
         <Product key={p.id} id={p.id} name={p.name} price={p.price} url={p.url}/>
       ))}   
     </div>
+    </>
   )
 }
 

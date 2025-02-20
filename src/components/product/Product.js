@@ -17,7 +17,7 @@ function Product({id, name, price, url}) {
         <img src={url}/>
       </div>
       <div className='productTextContainer'>
-        <h3>{name} | {price} | SONY</h3>
+        <h3>{name} | ${price} | SONY</h3>
       </div>
       <div className='productBtn'>
         <button onClick={addToCart}>Add To Cart</button>
